@@ -15,7 +15,7 @@ jobs:
 
     - name: Clone SukiSU Ultra
       run: |
-        git clone --depth=1 https://github.com/SukiSU-Ultra/SukiSU-Ultra -b nongki KernelSU
+        git clone --depth=1 https://github.com/SukiSU-Ultra/SukiSU-Ultra -b main KernelSU
 
     - name: Build kernel
       run: |
